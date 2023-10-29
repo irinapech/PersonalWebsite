@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #303238;
+    color: whitesmoke;
+}
+
+/* color pallete */
+/* CSS HEX */
+/* --jet: #303238ff;
+--ebony: #3C4831ff;
+--dark-moss-green: #485D2Bff;
+--fern-green: #547324ff;
+--avocado: #5F881Dff;
+--asparagus: #6B9E17ff;
+--apple-green: #77B310ff; */
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container>div {
+    border: 5px solid #5F881D;
+    width: auto;
+    margin: 10px;
+    padding: 20px;
+}
+
+/* header section */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+    padding: 10px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    gap: 5em;
+}
+
+/* overall layout of about, education, work, leadership, volunteer, footer sections */
+.about,
+.education,
+.work,
+.leadership,
+.volunteer,
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    gap: 1.5em;
+}
+
+/* about section */
+
+
+/* education section */
+
+
+/* work section */
+
+
+/* leadership section */
+
+
+/* volunteer section */
+
+
+/* footer section */
+.footer-info {
+    display: flex;
+    gap: 2em;
+    /* justify-content: space-between; doesn't work for some reason */
+}
