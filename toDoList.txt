@@ -1,0 +1,20 @@
+GENERAL
+
+HEADER
+- add email link?
+
+ABOUT ME
+- add text
+
+EDUCATION
+- link to transcript
+
+WORK EXPERIENCE
+
+LEADERSHIP
+
+VOLUNTEER EXPERIENCE
+- descriptions as a list
+
+CONTACT INFORMATION
+- add style

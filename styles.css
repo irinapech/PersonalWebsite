@@ -4,7 +4,35 @@
 
 html {
     background-color: #303238;
+    color: rgb(177, 160, 160);
+    /* font-family: Muli, sans-serif; */
+    font-family: "Cutive Mono", monospace;
+    font-size: 20px;
+    /* letter-spacing: 2px; */
+}
+
+.header {
+    font-family: "Space Mono", monospace;
+    font-size: 40px;
+    color: #5F881D;
+}
+
+/* unvisited link */
+a:link {
     color: whitesmoke;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #5F881D;
+    text-decoration: underline;
 }
 
 /* color pallete */
@@ -22,8 +50,9 @@ html {
     flex-direction: column;
 }
 
-.container>div {
-    border: 5px solid #5F881D;
+.container > div {
+    /* border: 3px solid #5F881D; */
+    border-radius: 25px;
     width: auto;
     margin: 10px;
     padding: 20px;
@@ -31,11 +60,13 @@ html {
 
 /* header section */
 
-.header {
+.top {
     display: flex;
     justify-content: space-between;
     height: 10%;
     padding: 10px;
+    color: #5F881D;
+    font-size: 32px;
 }
 
 .links {
@@ -59,14 +90,46 @@ html {
     gap: 1.5em;
 }
 
-/* about section */
+.duration {
+    font-style: italic;
+}
 
+.header {
+    color: #5F881D;
+    font-size: 32px;
+    letter-spacing: 3px;
+}
+
+.info {
+    display: flex;
+    gap: 3em;
+}
+
+/* about section */
+#about-header {
+    flex-grow: 1;
+}
+
+#about-text {
+    flex-grow: 2;
+}
 
 /* education section */
+.education-info {
+    display: flex;
+    gap: 3em;
+}
 
+#college {
+    font-style: italic;
+}
+
+#education-left {
+    display: flex;
+    flex-direction: column;
+}
 
 /* work section */
-
 
 /* leadership section */
 
@@ -75,8 +138,3 @@ html {
 
 
 /* footer section */
-.footer-info {
-    display: flex;
-    gap: 2em;
-    /* justify-content: space-between; doesn't work for some reason */
-}
